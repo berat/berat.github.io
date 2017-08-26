@@ -48,6 +48,7 @@ body{
 .bottom ul{
    display: flex;
    padding-top: 80px;
+   padding-left: 20px;
 }
 .bottom ul li:after{
    content: " - ";
