@@ -1,0 +1,1076 @@
+header{
+
+background: url(images/header.png) no-repeat center center;
+
+background-size: 100%;
+
+min-height: 653px;
+
+width: 100%;
+
+position: relative;
+
+}
+
+.header{
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+background: rgba(0, 0, 0, 0.85) center center fixed;
+
+background-size: 100%;
+
+min-height: 653px;
+
+width: 100%;
+
+}
+
+.ust{
+
+display: flex;
+
+padding-top: 30px;
+
+padding-bottom: 30px;
+
+}
+
+.ust div{
+
+width: 390px;
+
+}
+
+.ust div:nth-child(1){
+
+text-align: left;
+
+}
+
+.ust div:nth-child(2){
+
+text-align: center;
+
+}
+
+.ust div:nth-child(3){
+
+text-align: right;
+
+}
+
+.ortala{
+
+width: 1170px;
+
+margin: 0px auto;
+
+}
+
+.ust a{
+
+font-size: 20px;
+
+color: #ececec;
+
+}
+
+.ust div:nth-child(2) a{
+
+font-size: 28px;
+
+}
+
+.benkim{
+
+width: 290px;
+
+height: 500px;
+
+display: table;
+
+margin: 0px auto;
+
+}
+
+.benkim div{
+
+display: table-cell;
+
+vertical-align: middle;
+
+}
+
+.benkim h1{
+
+font-size: 30px;
+
+font-weight: 700;
+
+color: #fff;
+
+letter-spacing: 3px;
+
+}
+
+.benkim h1 a{
+
+font-size: 30px;
+
+font-weight: 700;
+
+color: #fff;
+
+}
+
+.benkim h2{
+
+font-size: 14px;
+
+color: #b5b5b5;
+
+font-weight: 400;
+
+padding-top: 30px;
+
+padding-bottom: 30px;
+
+}
+
+.social{
+
+width: 255px;
+
+margin: 0px auto
+
+}
+
+.social ul{
+
+display: flex;
+
+text-align: center;
+
+}
+
+.social li{
+
+background: rgba(38, 38, 38, 0.7);
+
+margin-right: 10px;
+
+margin-left: 10px;
+
+width: 45px;
+
+height: 42px;
+
+border-radius: 4px;
+
+text-align: center;
+
+line-height: 42px;
+
+border: 1px solid #2a2a2a; 
+
+}
+
+.social li a{
+
+padding: 14px;
+
+color: #ebebeb;
+
+font-size: 18px;
+
+}
+
+.social li:nth-child(1):hover{
+
+background: #2baae1;
+
+border: 1px solid #2baae1;
+
+}
+
+.social li:nth-child(2):hover{
+
+background: #324774;
+
+border: 1px solid #324774;
+
+}
+
+.social li:nth-child(3):hover{
+
+background: #000;
+
+border: 1px solid #000;
+
+}
+
+.social li:nth-child(4):hover{
+
+background: #287bbc;
+
+border: 1px solid #287bbc;
+
+}
+
+#body{
+
+width: 1140px;
+
+display: flex;
+
+margin: 0px auto;
+
+margin-top: 30px;
+
+margin-bottom: 30px;
+
+}
+
+.content{
+
+width: 577px;
+
+margin-right: 40px;
+
+}
+
+.sidebar{
+
+width: 520px;
+
+}
+
+.baslik{
+
+font-size: 15px;
+
+font-weight: 600;
+
+color: #3c3c3c;
+
+text-align: center;
+
+}
+
+.baslik span:after{
+
+content: '';
+
+display: block;
+
+width: 50px;
+
+margin: 0px auto;
+
+padding-top: 10px;
+
+border-bottom: 1px solid #4c4c4c;
+
+}
+
+.icerik ul{
+
+display: block;
+
+}
+
+.icerik li{
+
+}
+
+.yazi-baslik{
+
+font-size: 16px;
+
+color: #2f2f2f;
+
+line-height: 19px;
+
+font-weight: 600;
+
+}
+
+.yazi-baslik a{
+
+font-size: 16px;
+
+padding: 2px;
+
+color: #2f2f2f;
+
+line-height: 19px;
+
+font-weight: 600;
+
+}
+
+.yazi-baslik a:hover{
+
+color: #205a93;
+
+}
+
+.yazi-gereksiz{
+
+color: #adadad;
+
+margin-top: 5px;
+
+margin-bottom: 5px;
+
+}
+
+.yazi-gereksiz span{
+
+font-size: 12px;
+
+font-weight: 400;
+
+padding: 5px;
+
+color: #adadad;
+
+}
+
+.yazi-gereksiz a{
+
+color: #adadad;
+
+}
+
+.yazi-icerigi p{
+
+font-size: 13px;
+
+padding-left: 5px;
+
+font-weight: 400;
+
+color: #7a7979;
+
+line-height: 18px;
+
+}
+
+.icerik li{
+
+border-bottom: 1px solid #dfdfdf;
+
+padding-top: 20px;
+
+padding-bottom: 20px;
+
+}
+
+.icerik li:last-child{
+
+border: none;
+
+}
+
+.sayfalama{
+
+width: 90px;
+
+display: flex;
+
+margin: 0px auto;
+
+}
+
+.sayfalama div:nth-child(1){
+
+margin-right: 15px;
+
+}
+
+.sayfalama div{
+
+background: #f6f6f6;
+
+border: 1px solid #e5e5e5;
+
+width: 40px;
+
+height: 38px;
+
+text-align: center;
+
+line-height: 35px;
+
+}
+
+.sayfalama a{
+
+color: #686868;
+
+font-size: 23px;
+
+}
+
+.roportaj .icerik li{
+
+display: flex;
+
+}
+
+.ro-img{
+
+padding-right: 10px;
+
+}
+
+.ro-img img{
+
+border-radius: 3px;
+
+border: 1px solid #e5e5e5
+
+}
+
+.hastag{
+
+margin-top: 10px;
+
+}
+
+.tyazi{
+margin-top: 15px;
+}
+.tyazi ul{
+padding-top: 5px;
+}
+.tyazi ul li{
+padding-top: 7px;
+padding-bottom: 7px;
+border-bottom: 1px solid #ddd;
+display: inherit;
+}
+.tyazi li a{
+font-size: 14px;
+display: block;
+color: #656565;
+}
+
+.hastag li img{
+
+position: absolute;
+
+height: 148px;
+
+width: 518px;
+
+}
+
+.hastag .koyu{
+
+position: relative;
+
+background: rgba(0, 0, 0, 0.85) center center fixed;
+
+background-size: 100%;
+
+height: 148px;
+
+width: 518px;
+
+text-align: center;
+
+display: table;
+
+}
+
+.hastag .kicerik{
+
+vertical-align: middle;
+
+display: table-cell;
+
+}
+
+.hastag .yazi-baslik a{
+
+color: #fff;
+
+}
+
+.hastag .yazi-baslik a:hover{
+
+color: #58a2ec;
+
+}
+
+.hastag .icerik li{
+
+border: none;
+
+padding-bottom: 0px;
+
+}
+
+footer{
+
+background-size: 100%;
+
+min-height: 255px;
+
+width: 100%;
+
+position: absolute;
+
+}
+
+.footer{
+
+background: rgba(0, 0, 0, 0.85) center center fixed;
+
+background-size: 100%;
+
+min-height: 255px;
+
+width: 100%;
+
+position: relative;
+
+}
+
+.footer .ortala{
+
+display: flex;
+
+}
+
+.sutun{
+
+width: 570px;
+
+margin-right: 15px;
+
+padding-top: 30px;
+
+padding-bottom: 30px;
+
+margin-left: 15px;
+
+color: #fff;
+
+}
+
+.footer .baslik{
+
+text-align: left;
+
+color: #fcfcfc;
+
+padding-bottom: 10px;
+
+}
+
+.footer .baslik span:after{
+
+margin:0;
+
+border-color: #f1f1f1;
+
+}
+
+.footer-icerik li{
+
+display: flex;
+
+}
+
+.footer-icerik li i{
+
+font-size: 16px;
+
+color: #c7c7c7;
+
+margin-top: 2px;
+
+padding-right: 5px;
+
+}
+
+.footer-icerik li p{
+
+font-size: 13px;
+
+font-family: 'Open Sans';
+
+color: #e0e0e0;
+
+line-height: 19px;
+
+}
+
+.footer-icerik li{
+
+display: block;
+
+}
+
+.footer-icerik li div{
+
+display: flex;
+
+}
+
+.footer-icerik li span a{
+
+font-size: 11px;
+
+display: block;
+
+font-family: 'Open Sans';
+
+color: #a7a7a7;
+
+padding-left: 30px;
+
+padding-top: 2px;
+
+}
+
+.syorumlar icin{
+
+color: #a6a6a6;
+
+font-family: 'Open Sans';
+
+font-size: 13px;
+
+padding-top: 3px;
+
+padding-right: 4px;	
+
+}
+
+.syorumlar p{
+
+padding: 0px;
+
+padding-right: 4px;
+
+}
+
+.syorumlar p a{
+
+font-size: 13px;
+
+color: #e0e0e0;
+
+font-family: 'Open Sans';
+
+}
+
+.syorumlar ysahib a{
+
+color: #d8d8d8;
+
+font-family: 'Open Sans';
+
+font-size: 13px;
+
+}
+
+.footer-icerik li{
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+
+}
+
+.alt{
+
+background: #32312f repeat-x;
+
+width: 100%;
+
+height: 30px;
+
+}
+
+.alt .ortala{
+
+padding:5px 0px;
+
+}
+
+.alt p{
+
+float: left;
+
+font-family: 'Open Sans';
+
+color: #a6a6a6;
+
+font-size: 12px;
+
+padding-top: 4px;
+
+}
+
+.alt-menu{
+
+float: right;
+
+}
+
+.alt-menu ul{
+
+display: flex;
+
+}
+
+.alt-menu li{
+
+padding: 1px;
+
+}
+
+.alt-menu li a{
+
+padding: 2px;
+
+color: #a6a6a6;
+
+font-family: 'Open Sans';
+
+font-size:13px;
+
+}
+
+.single{
+
+width: 725px;
+
+margin: 0px auto
+
+}
+
+.sicerik p{
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+
+padding-left: 2px;
+
+font-size: 14px;
+
+line-height: 22px;
+
+color: #717171;
+
+font-weight: 400;
+
+  font-family: 'Open Sans';
+
+word-spacing: 2px;
+
+}
+
+.sicerik{
+
+font-family: 'Open Sans';
+
+}
+
+.paylas{
+
+padding-top: 15px;
+
+padding-bottom: 15px;
+
+margin-top: 30px;
+
+border-top: 1px solid #ebe9e9;
+
+}
+
+.paylas ul{
+
+display: flex;
+
+}
+
+.paylas li{
+
+margin-right: 10px;
+
+}
+
+.paylas li i{
+
+padding-right: 5px;
+
+padding-top: 7px;
+
+font-size: 14px;
+
+color: #4f4f4f;
+
+}
+
+.yorum{
+
+width: 725px;
+
+margin: 0px auto;
+
+margin-top: 30px;
+
+}
+
+.ybaslik span{
+
+border-top: 1px solid #ebe9e9;
+
+padding-right: 10px;
+
+padding-top: 15px;
+
+}
+
+.ybaslik{
+
+color: #565656;
+
+font-family: 'Open Sans';
+
+font-size: 14px;
+
+font-weight: 500;
+
+padding-bottom: 15px;
+
+}
+
+.yorumlar li img{
+
+float: left;
+
+padding-right: 10px;
+
+}
+
+.ysahip{
+
+display: block;
+
+padding-top: 5px;
+
+padding-bottom: 15px;
+
+}
+
+.ysahip p a,.ysahip p{
+
+font-size: 13px;
+
+color: #565656;
+
+font-weight: 500;
+
+}
+
+.ysahip span{
+
+padding-left: 2px;
+
+}
+
+.ysahip span a{
+
+font-size: 11px;
+
+color: #f59792;
+
+font-weight: 500;
+
+}
+
+.yorumlar li{
+
+border-bottom: 1px solid #ebe9e9;
+
+padding-top: 5px;
+
+padding-bottom: 10px;
+
+margin-bottom: 10px;
+
+}
+
+.yorumlar li:last-child{
+
+border: none;
+
+margin-bottom: 0;
+
+}
+
+.yorumu p{
+
+font-size: 13px;
+
+color: #878787;
+
+display: block;
+
+position: relative;
+
+font-weight: 400;
+
+line-height: 18px;
+
+}
+
+.sicerik strong,.sicerik a strong{
+
+font-weight: 600;
+
+}
+
+.sicerik a{
+
+color: #4c8ccc;
+
+padding: 1px;
+
+}
+
+.sicerik a:hover{
+
+padding-bottom: 2px;
+
+text-decoration: underline;
+
+}
+
+.sicerik em{
+
+font-style: italic;
+
+}
+
+.sicerik blockquote{
+
+background: #dfdfdf;
+
+padding: 10px;
+
+border-top: 2px solid #777777;
+
+margin: 0px auto;
+
+}
+
+.sicerik img{
+
+padding: 5px;
+
+border: 1px solid #d2d6d9;
+
+max-width: 700px;
+
+margin: 0px auto;
+
+}
+
+.aligncenter{
+
+margin: 0px auto;
+
+}
+
+ul.children li .yorum{
+
+border-left: 2px solid #ddd;
+
+padding-left: 15px;
+
+margin-left: 20px;
+
+margin-right: 20px;
+
+}
+
+ul.children li .yorumu p{
+
+margin-right: 20px;
+
+}
+
+.comment-reply-title{
+
+color: #565656;
+
+font-family: 'Open Sans';
+
+font-size: 14px;
+
+font-weight: 500;
+
+padding-bottom: 15px;
+
+}
+
+#respond{
+
+margin-top:20px;
+
+}
+
+img.size-full.alignleft{
+
+float: left;
+
+margin-right: 15px;
+
+margin-bottom: 10px;
+
+margin-top: 10px;
+
+}
+
+img.size-full.alignright{
+
+float: right;
+
+margin-left: 15px;
+
+margin-bottom: 10px;
+
+margin-top: 10px;
+
+}
+
+.sharedaddy{
+
+padding-top: 15px;
+
+padding-bottom: 15px;
+
+}
+
+.sd-sharing-enabled{
+
+margin-top: 30px;
+
+border-top: 1px solid #ebe9e9;
+
+}
+
