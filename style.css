@@ -175,4 +175,5 @@ a{
      .bottom ul{display: block;margin-top: -40px;}
      .bottom ul li{padding-bottom: 10px;text-align: center}
      .bottom ul li:after{content: none}
+     .col-lg-4{margin-top: -40px;}
  }
