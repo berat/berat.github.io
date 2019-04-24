@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-	var uzunluk=4;
+	var uzunluk=5;
 	uzunluk++;
 	var sira=0;
 
