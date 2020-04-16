@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^berat.github.io [NC,OR] RewriteCond %{HTTP_HOST} ^www.berat.github.io [NC] RewriteRule ^(.*)$ https://beratbozkurt.net/$1 [L,R=301,NC]
