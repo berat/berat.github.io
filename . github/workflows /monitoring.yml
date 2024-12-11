@@ -1,0 +1,48 @@
+name: Monitoring with Github Actions
+
+on:
+ schedule:
+   - cron: "15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  monitoring:
+    name: Monitoring with Github Actions
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@master
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/ssh.key
+          chmod 600 ~/.ssh/ssh.key
+          cat >>~/.ssh/config <<END
+          Host monitoring
+            HostName berat.github.io
+            User root
+            IdentityFile ~/.ssh/ssh.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+
+      - name: generate csv line
+        run: |
+          echo $(date +%H:%M-%D),\
+               $(ssh monitoring free -m | grep -ow [0-9.]* | head -n 2 | tail -n 1),\
+               $(ssh monitoring df -m / | grep -ow [0-9]* | head -n 2 | tail -n 1),\
+               $(ssh monitoring uptime | cut -d ":" -f 5)\
+          | tr -d " " >> stats.csv
+
+      - name: auwuto commit uwu
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: bump stats.csv
+          repository: .
+          file_pattern: stats.csv
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
